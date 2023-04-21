@@ -12,8 +12,7 @@ header {
   justify-content: space-between;
   z-index: 1;
 }
-
-h1 {
+header div h1 {
   color: white;
   padding: 0 10px;
   font-size: 0.9em;
@@ -54,6 +53,9 @@ h1 {
   gap: 5%;
   padding: 2%;
   z-index: 1;
+}
+#input h2 {
+  font-size: 1.2rem;
 }
 
 #search-container {
@@ -113,6 +115,9 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+#info-city h1 {
+  font-size: 2rem;
 }
 
 img {

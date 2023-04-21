@@ -13,6 +13,10 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   h1{
+    font-size: 2rem;
+   }
+   
  }
 
 
@@ -35,6 +39,7 @@
     align-items: center;
    }
  }
+
 
  @media  screen and (min-width: 768px){
   #info-weather{
