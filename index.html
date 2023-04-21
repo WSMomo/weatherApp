@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="https://kit.fontawesome.com/347de1b499.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <main>
+    <section id="input">
+      <!-- titolo -->
+      <h2>Pick Location</h2>
+      <!-- descrizione -->
+      <p>Search for your city and discover real-time weather.</p>
+      <!-- ricerca -->
+      <form id="search-container">
+        <input type="text" name="search" id="search-text" placeholder="Search">
+        <button type="submit" id="search-btn" title="Search city"><i class="fa-solid fa-location-dot"></i></button>
+      </form>
+    </section>
+    <section id="output">
+      <!-- info citta e giorno -->
+      <div id="info-city">
+        <!-- nome citta -->
+        <h1 id="info-city-name"></h1>
+        <!-- giorno e ora -->
+        <p id="info-condition"></p>
+      </div>
+      <!-- immagine del tempo (sole, nuovoloso, pioggia...) -->
+      <img id="img-condition" src="https://openweathermap.org/img/wn/01n@4x.png"></img>
+      <!-- info -->
+      <div id="info-weather">
+        <!-- temperatura -->
+        <div id="temp">
+          <p>Temp</p>
+          <p id="temp-degree"></p>
+        </div>
+        <!-- velocità vento -->
+        <div id="wind">
+          <p>Wind</p>
+          <p id="wind-speed"></p>
+        </div>
+        <!-- umidità -->
+        <div id="humidity">
+          <p>Humidity</p>
+          <p id="humidity-percentage"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

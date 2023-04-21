@@ -1,0 +1,45 @@
+#output{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  gap: 5%;
+  display: none;
+}
+
+ #info-city{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+
+
+ img{
+   width: 100%;
+   max-width: 300px;
+   object-fit: cover;
+ }
+
+ #info-weather{
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+   div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+ }
+
+ @media  screen and (min-width: 768px){
+  #info-weather{
+    width: 60%;
+  }
+ }
+
+ 
