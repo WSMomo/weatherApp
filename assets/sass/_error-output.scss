@@ -1,7 +1,16 @@
 #error-output{
   display: none;
+  min-width: fit-content;
+  margin: 0 20px;
   background-color: $main-color;
   color: $error-color;
   padding: 10px;
   border-radius: 10px;
 }
+
+
+@media  screen and (min-width: 768px){
+  #error-output{
+    width: fit-content;
+  }
+ }
