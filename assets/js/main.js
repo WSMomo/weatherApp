@@ -12,9 +12,11 @@ async function main() {
     if (weatherData && weatherData.cod === 200) {
         console.log(weatherData);
         renderWeatherData(weatherData);
+        variables.errorOutput.style.display = 'none';
         variables.output.style.display = 'flex';
     } else {
         console.log(weatherData);
+        variables.errorOutput.style.display = 'flex';
         variables.output.style.display = 'none';
     }
 }

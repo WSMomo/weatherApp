@@ -17,3 +17,6 @@ export const imgCondition = document.querySelector('#img-condition');
 export const temp = document.querySelector('#temp-degree');
 export const wind = document.querySelector('#wind-speed');
 export const humidity = document.querySelector('#humidity-percentage');
+
+//error output
+export const errorOutput = document.querySelector('#error-output');

@@ -144,10 +144,19 @@ img {
     width: 60%;
   }
 }
+#error-output {
+  display: none;
+  background-color: rgba(29, 43, 83, 0.8);
+  color: rgb(209, 38, 38);
+  padding: 10px;
+  border-radius: 10px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 body {

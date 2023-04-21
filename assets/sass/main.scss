@@ -2,10 +2,12 @@
 @import 'header';
 @import 'input';
 @import 'output';
+@import 'error-output';
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 body{
